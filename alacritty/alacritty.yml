@@ -1,0 +1,18 @@
+font:
+  normal:
+    family: SF Pro Text
+    style: Regular
+  bold:
+    family: SF Pro Text
+    style: Bold
+  italic:
+    family: SF Pro Text
+    style: Italic
+  bold_italic:
+    family: SF Pro Text
+    style: Bold Italic
+  size: 10.0
+
+ fallback_font:
+    - "SF Pro Text"
+    - "SFNSText"
