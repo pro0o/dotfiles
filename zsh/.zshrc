@@ -51,3 +51,11 @@ alias ls='ls --color'
 
 # Shell integrations
 eval "$(fzf --zsh)"
+
+#eval "$(zoxide init zsh)"
+
+export FLYCTL_INSTALL="/home/probin-sir/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
+
+alias dmenu_run="(echo 'firefox'; echo 'alacritty'; echo 'vscode'; cat ~/.cache/dmenu_run) | dmenu -fn 'JetBrainsMono Nerd Font-16' -nb '#090d1e' -nf '#e0e0e0' -sb '#f0c674' -sf '#1C325B' | sh"
+
