@@ -1,6 +1,6 @@
 [general]
 import = [
-  "/usr/lib/node_modules/alacritty-themes/themes/iTerm-Default.toml"
+  "/usr/lib/node_modules/alacritty-themes/themes/Shapeshifter.dark.toml"
 ]
 
 [font]
