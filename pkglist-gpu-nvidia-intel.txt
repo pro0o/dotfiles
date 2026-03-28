@@ -1,0 +1,10 @@
+intel-media-driver
+intel-ucode
+libva-intel-driver
+nvidia-container-toolkit
+nvidia-open
+nvidia-open-lts
+nvidia-prime
+nvidia-settings
+nvidia-utils
+vulkan-intel

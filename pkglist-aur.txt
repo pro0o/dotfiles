@@ -1,0 +1,13 @@
+android-studio
+brave-bin
+cloudflare-warp-bin
+cursor-bin
+google-chrome
+kind
+miniconda3
+neofetch
+opera-beta
+visual-studio-code-bin
+youtube-music
+zen-browser-bin
+zoom
