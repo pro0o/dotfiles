@@ -1,6 +1,6 @@
 [general]
 import = [
-  "/usr/lib/node_modules/alacritty-themes/themes/Shapeshifter.dark.toml"
+  "~/.config/alacritty/themes/Shapeshifter.dark.toml"
 ]
 
 [font]

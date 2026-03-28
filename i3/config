@@ -21,9 +21,8 @@ exec_always --no-startup-id feh --bg-scale ~/Pictures/main.jpeg
 assign [class="chrome"] 1
 exec --no-startup-id i3-msg "workspace 1; exec google-chrome-stable"
 
-# --- Trackpad Settings ---
-exec_always --no-startup-id xinput set-prop "ASUF1204:00 2808:0202 Touchpad" "libinput Natural Scrolling Enabled" 1
-exec_always --no-startup-id xinput set-prop "ASUF1204:00 2808:0202 Touchpad" "libinput Accel Speed" 0.3
+# --- Trackpad Settings (auto-detect) ---
+exec_always --no-startup-id bash -c 'tp=$(xinput list --name-only | grep -i touchpad | head -1); [ -n "$tp" ] && xinput set-prop "$tp" "libinput Natural Scrolling Enabled" 1 && xinput set-prop "$tp" "libinput Accel Speed" 0.3'
 
 # Chrome on workspace 3
 assign [class="firefox"] 2
