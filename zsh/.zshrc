@@ -93,6 +93,8 @@ bindkey "^[[1;5C" forward-word
 # Aliases
 # -----------------------------
 alias ls='ls --color'
+alias lg='lazygit'
+alias y='yazi'
 
 # -----------------------------
 # Clipmenu (clipboard manager)
